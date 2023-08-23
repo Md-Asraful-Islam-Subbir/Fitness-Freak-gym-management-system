@@ -1,0 +1,242 @@
+/* style.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo h2 {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.logo h2 i {
+  margin-right: 10px;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar a {
+  color: #fff;
+  padding-left: 0.5rem;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.bttn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: rgba(202, 179, 179, 0.4);
+}
+.bttn:hover {
+  background-color: rgb(24, 22, 22);
+}
+.home {
+  background-image: url("images/2.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 0;
+  text-align: left;
+}
+
+.home-content {
+  width: 600px;
+  margin: 0 0 0 2rem;
+}
+
+.home-content h3 {
+  font-family: "Alkatra", cursive;
+  font-family: "Hammersmith One", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  margin-bottom: 20px;
+  justify-content: left;
+}
+
+.home-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.home-content .btn {
+  font-size: 18px;
+  padding: 10px 20px;
+}
+footer {
+  align-content: center;
+  align-items: center;
+  background-color: rgb(58, 65, 59);
+  margin-top: -1.2rem;
+}
+.footer .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1.5rem;
+}
+
+.footer .box-container .box h3 {
+  font-size: 2.2rem;
+  padding: 0.5rem 0;
+  color: var(--primary);
+  position: relative;
+  top: 2rem;
+}
+
+.footer .box-container .box p {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  line-height: 2;
+}
+
+.footer .box-container .box a {
+  display: block;
+  font-size: 1.4rem;
+  padding: 1rem 0;
+  margin-top: -0.5rem;
+  color: var(--white);
+}
+
+.footer .box-container .box a i {
+  color: var(--primary);
+  padding-right: 0.5rem;
+}
+
+.footer .box-container .box a:hover {
+  color: var(--primary);
+}
+
+.footer .box-container .box a:hover i {
+  padding-right: 2rem;
+}
+
+.footer .share {
+  padding-top: -1rem;
+  text-align: center;
+}
+
+.footer .share a {
+  font-size: 2rem;
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  color: var(--primary);
+  border: 0.1rem solid var(--primary);
+  margin: 0rem;
+  border-radius: 50%;
+}
+
+.footer .share a:hover {
+  color: var(--white);
+  background: var(--primary);
+  transform: rotate(360deg);
+}
+
+.footer .credit {
+  border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
+  font-size: 1rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  padding-top: 1rem;
+  text-align: center;
+  color: var(--white);
+}
+
+.footer .credit span {
+  color: var(--primary);
+}
+/* end */
+
+/* pricing */
+
+.pricing .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 2rem;
+}
+
+.pricing .box-container .box {
+  padding: -2rem;
+  text-align: center;
+  border: 0.1rem solid rgba(238, 12, 12, 0.2);
+  box-shadow: var(--box-shadow);
+  border-radius: 1rem;
+}
+
+.pricing .box-container .box h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: var(--primary);
+  padding-top: -1rem;
+}
+
+.pricing .box-container .box .price {
+  font-size: 2rem;
+  padding-top: -2rem;
+  font-weight: bolder;
+}
+
+.pricing .box-container .box .price span {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.pricing .box-container .box .month {
+  font-size: 1.5rem;
+  color: #666;
+}
+
+.pricing .box-container .box .list {
+  padding: -2rem 0;
+}
+
+.pricing .box-container .box .list p {
+  font-size: 1rem;
+  color: #3f3f3f;
+  line-height: 1;
+}
+
+.pricing .box-container .box .list p i {
+  color: var(--primary);
+  padding-right: -0.5rem;
+}
+
+.pricing .box-container .box .list p i.fa-times {
+  color: var(--white);
+}
+.text1 {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  font-size: 1.5rem;
+}
+

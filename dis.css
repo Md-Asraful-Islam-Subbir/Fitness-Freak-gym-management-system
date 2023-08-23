@@ -1,0 +1,167 @@
+#a1{
+
+    font-family: 'Oleo Script';
+    font-size: 3.55rem;
+    position: relative;
+    top: -5.125rem;
+    
+    }
+    #a1 a{
+        text-decoration: none;
+        color: rgb(228, 169, 20);
+        text-shadow: .15rem .15rem black ;
+    }
+    
+    #div1{
+        position: relative;
+        top: -5.875rem;
+        display: flex;
+        font-size: 1.5625rem;
+        
+        justify-content: space-between;
+        
+        border-radius: .8125rem;
+        
+        width: 67.6325rem;
+        margin: auto;
+        background-color: aliceblue; 
+    }
+    #div1 a{
+        display: flex;
+    }
+    #div1 img{
+        
+        width: 12.5rem;
+        height: 10rem;
+        border-top-left-radius: .3125rem;
+        border-bottom-left-radius: .3125rem;
+        object-fit: cover;
+       
+    }
+    #div1 p{
+        padding: 1.5625rem;
+        height: 4.6875rem;
+        margin-top: -.46875rem;
+        font-size: 1rem;
+    }
+    
+    body{
+        background-image: url(Images/3.jpg);
+        background-size: cover;
+    }
+    section{
+        position: relative;
+       
+        top: -5.86rem;
+        display: flex;
+        justify-content: space-between;
+        width: 67.54rem;
+        align-content: center;
+        margin: auto;border-bottom-right-radius: .46875rem;
+        border-top-right-radius: .46875rem;
+        border-radius: .46875rem;
+        height: 10rem;
+        
+        margin: .46875rem auto .46875rem auto;
+        
+    }
+    section p{
+        padding: 1.5625rem;
+        font-size: 1.5625rem;
+        justify-content: space-between;
+        position: relative;
+        left: -.625rem;
+        top: -1.875rem; 
+    }
+    section div{
+        display: flex;
+    }
+    section img{
+        width: 12.5rem;
+        height: 10rem;
+        border-bottom-left-radius: .46875rem;
+        border-top-left-radius: .46875rem;
+        object-fit: cover;     
+    }
+    #div2{
+        position: relative;
+        left: -.0625rem;
+        margin: 0px 0px 0px .25rem;
+        height: 10rem;
+    }
+    span{
+        font-size: 2.34375rem;
+    }
+    
+    a{
+        text-decoration: none;
+        color: rgb(16, 122, 163);
+        position: relative;
+        top: 2rem;
+        border:2px rgb(120, 153, 153);
+        
+    }
+    
+    #Back a{
+        font-size: 2.3625rem;
+        text-decoration: none;
+        position: relative;
+        top: -3.125rem;
+        left: 43.75rem;
+        color: violet;
+        text-shadow: .15625rem .15625rem rgb(18, 16, 16);
+        
+    }
+    #Sign{
+        position: relative;
+        left: 3.21875rem;
+        align-content: center;
+    }
+    
+    #div3{
+        
+        position: relative;
+        background-color: aliceblue;
+        border-radius: .46875rem; 
+        margin: 0px .30rem 0px 0px;
+        height: 10rem;
+        
+    }
+    #div2{
+       position: relative;
+        background-color: aliceblue;
+        border-radius: .46875rem; 
+        margin: 0px 0px 0px .30rem;
+    }
+    #div2 p{
+     position: relative;
+     top: -2.1875rem;
+     font-size: 1rem;
+    }
+    #div3 p{
+        position: relative;
+        top: -2.1875rem;
+        font-size: 1rem;
+       }
+       #div2 img{
+          width: 12.5rem;
+          height: 10rem;
+       }
+      #newyork{
+        width: 17rem;
+      }
+      
+       html{
+        zoom: 100%;
+       }
+       @media (max-width: 768px) {
+         html{
+            Zoom: 30%;
+         }
+         #Back a{
+            margin-left: -170px;
+         }
+         #ign{
+            margin-left: -170px;
+         }
+       }
